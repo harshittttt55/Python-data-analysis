@@ -12,7 +12,6 @@ def scrape_numbers_from_url(url):
     except Exception as e:
         print(f"Error fetching the URL: {e}")
         return
-
     # Step 2: Parse the HTML using BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
 
